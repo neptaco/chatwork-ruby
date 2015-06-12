@@ -3,11 +3,11 @@ module ChatWork
     install_class_operations :create, :get
 
     def self.path
-      "/rooms/%d/messages"
+      "/rooms/%s/messages"
     end
 
     def path
-      "/rooms/%d/messages"
+      "/rooms/%s/messages"
     end
   end
 end
